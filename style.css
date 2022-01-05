@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #17202A;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+section h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flex-box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem auto;
+}
+
+.container {
+    width: 50%;
+    padding: 2.5rem;
+}
+
+#stylish {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    border-left: 5px solid #FF1700;
+    padding-left: 15px;
+    text-align: left;
+}
+
+section h1 span {
+    color: #FFC300;
+}
+
+.container img {
+    width: 80%;
+}
+
+.container h1, .container p {
+    margin: 1.5rem 0;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #FDFEFE;
+    background: #FF5733;
+    border-radius: 5px;
+}
+
+.box {
+    width: 300px;
+    height: 350px;
+    margin: 2.5rem 0;
+    padding: 35px 25px;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 2.5px #17202A; */
+}
+
+#box-one {
+    background: #B5DEFF;
+    margin-right: 15px;
+}
+
+#box-two {
+    background: #FFEDED;
+}
+
+#box-three {
+    background: #F4DFBA;
+    margin-left: 15px;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 13px;
+}
+
+.img-box {
+    width: 150px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+#left-banner {
+    background: url("./images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: bottom;
+    padding: 2.5rem;
+}
+
+#left-banner .container img, #right-banner .container img {
+    width: 100%;
+}
+
+#left-banner .container h1, #right-banner .container h1 {
+    text-align: left;
+}
+
+#right-banner {
+    background: url("./images/shapes/shape-2.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: bottom right;
+}
+
+#subscribe-box {
+    background: linear-gradient(45deg, #EC4895, #F59B0D);
+    height: 50vh;
+}
+
+.input-box {
+    background: #FDFEFE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.input-box button {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #FDFEFE;
+    background: #C70039;
+    padding: 15px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 2.5rem 0;
+    background: #17202A;
+    color: #FFEDED;
+    text-align: center;
+}
+
+footer h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+footer h2 span {
+    color: #FF5733;
+}
+
